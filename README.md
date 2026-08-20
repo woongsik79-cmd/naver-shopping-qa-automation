@@ -1,20 +1,20 @@
 # Naver Gift Shop Sorting Validation Automation
 
-## 📌 Overview
+##  Overview
 
 네이버 쇼핑 선물샵의 카테고리별 상품 정렬 기능을 자동으로 검증하기 위한 프로젝트입니다.
 수동으로 확인하기 어려운 다양한 카테고리와 정렬 옵션을 자동으로 순회하며,
 가격 정렬(낮은 가격순 / 높은 가격순)이 정상적으로 동작하는지 검증합니다.
 ---
 
-## 🎯 Purpose
+##  Purpose
 
 * 반복적인 정렬 검증 작업 자동화
 * 가격 정렬 기능의 정확성 확인
 * 수동 테스트 과정에서 발생할 수 있는 휴먼 에러 방지
 ---
 
-## 🗝️ Features
+##  Features
 
 ### 1. 카테고리 자동 탐색
 
@@ -48,7 +48,7 @@
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 * Python
 * Selenium
@@ -57,7 +57,7 @@
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 python app.py
@@ -65,7 +65,7 @@ python app.py
 
 ---
 
-## 📊 Output
+##  Output
 
 * 실행 완료 후 Excel 파일 생성
 * 카테고리별 시트 분리
@@ -73,7 +73,7 @@ python app.py
 
 ---
 
-## 💡 Insights
+##  Insights
 
 * 일부 카테고리에서 정렬 기준이 일관되지 않는 사례 확인
 * 광고/추천 상품이 정렬 결과에 영향을 줄 가능성 존재
@@ -85,7 +85,7 @@ python app.py
 
 ---
 
-## 📎 Notes
+##  Notes
 
 * 단일 실행 파일(app.py)로 구성된 프로젝트입니다.
 * 내부적으로는 카테고리 탐색 / 데이터 수집 / 검증 / 리포트 생성 로직으로 분리되어 있습니다.
